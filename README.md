@@ -1,1 +1,444 @@
-# sudoku-checker
+a=(input())
+b=(input())
+c=(input())
+d=(input())
+e=(input())
+f=(input())
+g=(input())
+h=(input())
+m=(input())
+A=int(a[0])
+B=int(a[1])
+C=int(a[2])
+D=int(a[3])
+E=int(a[4])
+F=int(a[5])
+G=int(a[6])
+H=int(a[7])
+I=int(a[8])
+a=[A,B,C,D,E,F,G,H,I]
+l1=False
+i=0
+while(i<=8):
+    j=1
+    while(j>i and j<=8):
+        if(a[i]!=a[j]):
+         j=j+1
+         l1=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+A1=int(b[0])
+B1=int(b[1])
+C1=int(b[2])
+D1=int(b[3])
+E1=int(b[4])
+F1=int(b[5])
+G1=int(b[6])
+H1=int(b[7])
+I1=int(b[8])
+b=[A1,B1,C1,D1,E1,F1,G1,H1,I1]
+l2=False
+i=0
+while(i<=8):
+    j=1
+    while(j>i and j<=8):
+        if(b[i]!=b[j]):
+         j=j+1
+         l2=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+A2=int(c[0])
+B2=int(c[1])
+C2=int(c[2])
+D2=int(c[3])
+E2=int(c[4])
+F2=int(c[5])
+G2=int(c[6])
+H2=int(c[7])
+I2=int(c[8])
+c=[A2,B2,C2,D2,E2,F2,G2,H2,I2]
+l3=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(c[i]!=c[j]):
+         j=j+1
+         l3=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+A3=int(d[0])
+B3=int(d[1])
+C3=int(d[2])
+D3=int(d[3])
+E3=int(d[4])
+F3=int(d[5])
+G3=int(d[6])
+H3=int(d[7])
+I3=int(d[8])
+d=[A3,B3,C3,D3,E3,F3,G3,H3,I3]
+l4=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(d[i]!=d[j]):
+         j=j+1
+         l4=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+A4=int(e[0])
+B4=int(e[1])
+C4=int(e[2])
+D4=int(e[3])
+E4=int(e[4])
+F4=int(e[5])
+G4=int(e[6])
+H4=int(e[7])
+I4=int(e[8])
+e=[A4,B4,C4,D4,E4,F4,G4,H4,I4]
+l5=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(e[i]!=e[j]):
+         j=j+1
+         l5=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+A5=int(f[0])
+B5=int(f[1])
+C5=int(f[2])
+D5=int(f[3])
+E5=int(f[4])
+F5=int(f[5])
+G5=int(f[6])
+H5=int(f[7])
+I5=int(f[8])
+f=[A5,B5,C5,D5,E5,F5,G5,H5,I5]
+l6=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(f[i]!=f[j]):
+         j=j+1
+         l6=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+A6=int(g[0])
+B6=int(g[1])
+C6=int(g[2])
+D6=int(g[3])
+E6=int(g[4])
+F6=int(g[5])
+G6=int(g[6])
+H6=int(g[7])
+I6=int(g[8])
+g=[A6,B6,C6,D6,E6,F6,G6,H6,I6]
+l7=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(g[i]!=g[j]):
+         j=j+1
+         l7=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+A7=int(h[0])
+B7=int(h[1])
+C7=int(h[2])
+D7=int(h[3])
+E7=int(h[4])
+F7=int(h[5])
+G7=int(h[6])
+H7=int(h[7])
+I7=int(h[8])
+h=[A7,B7,C7,D7,E7,F7,G7,H7,I7]
+l8=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(h[i]!=h[j]):
+         j=j+1
+         l8=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+A8=int(m[0])
+B8=int(m[1])
+C8=int(m[2])
+D8=int(m[3])
+E8=int(m[4])
+F8=int(m[5])
+G8=int(m[6])
+H8=int(m[7])
+I8=int(m[8])
+m=[A8,B8,C8,D8,E8,F8,G8,H8,I8]
+l9=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(m[i]!=m[j]):
+         j=j+1
+         l9=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+n=[A,A1,A2,A3,A4,A5,A6,A7,A8]
+c1=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(n[i]!=n[j]):
+         j=j+1
+         c1=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+o=[B,B1,B2,B3,B4,B5,B6,B7,B8]
+c2=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(o[i]!=o[j]):
+         j=j+1
+         c2=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+p=[C,C1,C2,C3,C4,C5,C6,C7,C8]
+c3=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(p[i]!=p[j]):
+         j=j+1
+         c3=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+q=[D,D1,D2,D3,D4,D5,D6,D7,D8]
+c4=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(q[i]!=q[j]):
+         j=j+1
+         c4=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+r=[E,E1,E2,E3,E4,E5,E6,E7,E8]
+c5=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(r[i]!=r[j]):
+         j=j+1
+         c5=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+s=[F,F1,F2,F3,F4,F5,F6,F7,F8]
+c6=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(s[i]!=s[j]):
+         j=j+1
+         c6=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+t=[G,G1,G2,G3,G4,G5,G6,G7,G8]
+c7=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(t[i]!=t[j]):
+         j=j+1
+         c7=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+u=[H,H1,H2,H3,H4,H5,H6,H7,H8]
+c8=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(u[i]!=u[j]):
+         j=j+1
+         c8=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+v=[I,I1,I2,I3,I4,I5,I6,I7,I8]
+c9=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(v[i]!=v[j]):
+         j=j+1
+         c9=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub1=[A,B,C,A1,B1,C1,A2,B2,C2]
+s1=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub1[i]!=sub1[j]):
+         j=j+1
+         s1=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub2=[D,E,F,D1,E1,F1,D2,E2,F2]
+s2=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub2[i]!=sub2[j]):
+         j=j+1
+         s2=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub3=[G,H,I,G1,H1,I1,G2,H2,I2]
+s3=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub3[i]!=sub3[j]):
+         j=j+1
+         s3=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub4=[A3,B3,C3,A4,B4,C4,A5,B5,C5]
+s4=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub4[i]!=sub4[j]):
+         j=j+1
+         s4=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub5=[D3,E3,F3,D4,E4,F4,D5,E5,F5]
+s5=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub5[i]!=sub5[j]):
+         j=j+1
+         s5=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub6=[G3,H3,I3,G4,H4,I4,G5,H5,I5]
+s6=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub6[i]!=sub6[j]):
+         j=j+1
+         s6=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub7=[A6,B6,C6,A7,B7,C7,A8,B8,C8]
+s7=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub7[i]!=sub7[j]):
+         j=j+1
+         s7=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub8=[D6,E6,F6,D7,E7,F7,D8,E8,F8]
+s8=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub8[i]!=sub8[j]):
+         j=j+1
+         s8=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+sub9=[G6,H6,I6,G7,H7,I7,G8,H8,I8]
+s9=False
+i=0
+while(i<=8):    
+    j=1
+    while(j>i and j<=8):
+        if(sub9[i]!=sub9[j]):
+         j=j+1
+         s9=True
+        else:
+            print("invalid")
+            exit()
+    i=i+1
+if(l1==True and l2==True and l3==True and l4==True and l5==True and l6==True and l7==True and l8==True and l9==True and c1==True and c2==True and c3==True and c4==True and c5==True and c6==True and c7==True and c8==True and c9==True and s1==True and s2==True and s3==True and s4==True and s5==True and s6==True and s7==True and s8==True and s9==True):
+    print("valid")  
+    
